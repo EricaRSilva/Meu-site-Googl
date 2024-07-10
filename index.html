@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa Google</title>
+    <link rel="stylesheet" href="style_main..css">
+</head>
+<body>
+    <div class="top-right-links">
+        <a href="image_search.html">Pesquisa de Imagens</a>
+        <a href="advanced_search.html">Pesquisa Avançada</a>
+    </div>
+    <div class="search-container">
+        <h1><img src="img/logo Google.png" alt="Logo Google"></h1>
+        <form action="https://www.google.com/search" method="get">
+            <input type="text" name="q" class="search-bar" placeholder="Pesquise no Google ou digite um URL">
+            <div class="buttons">
+                <input type="submit" value="Pesquisa Google" class="search-button">
+                <input type="submit" value="Estou com sorte" class="lucky-button" onclick="this.form.action='https://www.google.com/search?btnI=I&q='+this.form.q.value;">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
